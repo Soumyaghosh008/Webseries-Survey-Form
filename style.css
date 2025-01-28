@@ -1,0 +1,108 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styling the body */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #00b4d8, #0077b6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 50px;
+    margin: 0;
+  }
+  
+  /* Main login box styling */
+  .login-box {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 40px 50px;
+    width: 380px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Header styling */
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  /* Input group styling */
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 6px;
+    display: block;
+  }
+  
+  /* Input field styling */
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f8f8f8;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  select:focus {
+    outline: none;
+    border-color: #0077b6;
+    background-color: #e0f7fa;
+  }
+  
+  /* Styling for the dropdown container */
+  .dropdown-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Submit button styling */
+  .login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #0077b6;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-btn:hover {
+    background-color: #005f83;
+  }
+  
+  /* Additional footer styling for links or extra information */
+  .footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .footer a {
+    color: #0077b6;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
